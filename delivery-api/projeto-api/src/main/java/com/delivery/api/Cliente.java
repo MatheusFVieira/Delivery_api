@@ -1,0 +1,47 @@
+package com.delivery.api;
+
+public class Cliente {
+
+    private Long id;
+    private String nome;
+    private String email;
+    private String telefone;
+
+    // Construtor vazio (obrigatorio pro Spring)
+    public Cliente() {
+    }
+
+    // Getters
+    public Long getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    // Setters
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+}
