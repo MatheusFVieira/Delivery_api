@@ -13,5 +13,4 @@ public class Application {
         System.out.println("Acesse: http://localhost:8080");
         System.out.println("=================================");
     }
-
 }
