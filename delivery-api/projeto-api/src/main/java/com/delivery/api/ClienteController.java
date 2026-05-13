@@ -22,9 +22,6 @@ public class ClienteController {
         clientes.add(cliente);
         return  cliente;
     }
-
-
-
 }
 
 

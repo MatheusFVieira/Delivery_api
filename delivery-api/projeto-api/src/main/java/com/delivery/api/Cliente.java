@@ -7,11 +7,9 @@ public class Cliente {
     private String email;
     private String telefone;
 
-    // Construtor vazio (obrigatorio pro Spring)
     public Cliente() {
     }
 
-    // Getters
     public Long getId() {
         return id;
     }
@@ -28,7 +26,6 @@ public class Cliente {
         return telefone;
     }
 
-    // Setters
     public void setId(Long id) {
         this.id = id;
     }
